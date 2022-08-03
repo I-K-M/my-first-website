@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<title>Ismaël Kouddane-Metz | Développeur Front-end</title>
+</head>
+
+<body>
+
+	<nav>
+		<div class="navbar navbar-expand-sm fixed-top">
+			<div class="collapse navbar-collapse">
+				<a href="#" class="nav-item">
+					<img src="Logo-opt.png">
+				</a>
+				<a href="Blog.html" class="nav-item nav-link">Informations</a>
+				<a href="Blog.html" class="nav-item nav-link">Blog</a>
+				<a href="Blog.html" class="nav-item nav-link">Contact</a>
+			</div>
+		</div>
+	</nav>
+
+	<header>
+		<h1>ISMAËL KOUDDANE-METZ <br/>
+		DÉVELOPPEUR WEB FRONT-END</h1>
+	</header>
+
+
+	<main>
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-9" id="leftPart">
+
+					<div class="title_2">
+
+					<h2>Découvrez mon travail</h2>
+
+					<hr>
+					</div>
+					
+
+					<div class="container">
+						<div class="row elements">
+							<div class="col-sm-4">
+								<img src="clavier.jpg" alt="Un clavier de développeur web.">
+							</div>
+								<div class="col-sm-8">
+
+									<h3>Spécialiste SEO</h3>
+
+									<p>Après une formation SEO sur OpenClassrooms et plusieurs projets SEO et Marketing Digital, je me suis passionné de développement.</p>
+
+									<div class="button">
+										<button class="btn btn-danger">Mes projets SEO</button>
+									</div>
+								</div>
+						</div>
+					</div>
+
+						<div class="row elements">
+							<div class="col-sm-4">
+								<img src="developer.jpg" alt="Un développeur web et applications.">
+							</div>
+							<div class="col-sm-8">
+
+								<h3>Développeur web frontend</h3>
+
+								<p>Après une formation Udemy HTML5 et CSS3, puis une consolidation sur SoloLearn, j'ai acquis le JavaScript à travers deux formations OpenClassrooms et un parcours en ligne Codeacademy. Je me suis ensuite tourné vers React à travers plusieurs vidéos YouTube.</p>
+
+								<div class="button">
+									<button class="btn btn-danger">Mes projets frontend</button>
+							    </div>
+							</div>
+						</div>
+
+						<div class="row elements">
+							<div class="col-sm-4">
+								<img src="code.jpg" alt="Des lignes de code.">
+							</div>
+							<div class="col-sm-8">
+
+								<h3>Vers le Web3</h3>
+
+								<p>Mon objectif est de prochainement acquérir les outils du Web3, tels que Solidity, Metamask, Ganache, ether.js, afin de participer au développement d'applications décentralisées.</p>
+
+								<div class="button">
+									<button class="btn btn-danger">En savoir plus</button>
+							    </div>
+							</div>
+						</div>
+					</div>
+				
+			
+						
+
+
+				<div class="col-lg-3" id="rightPart">
+
+					<h2>Mes compétences</h2>
+
+					<div class="skills" style="background: url(HTML5.png)no-repeat 50% 50%;">
+						<h4>HTML5</h4>
+					</div>
+
+					<div class="skills" style="background: url(CSS3.png)no-repeat 50% 50%;">
+						<h4>CSS3</h4>
+					</div>
+
+					<div class="skills" style="background: url(BOOTSTRAP.png)no-repeat 50% 50%;">
+						<h4>Bootstrap</h4>
+					</div>
+
+					<div class="skills" style="background: url(JS.png)no-repeat 50% 50%;">
+						<h4>JavaScript</h4>
+					</div>
+
+					<div class="skills" style="background: url(REACT.png)no-repeat 50% 50%;">
+						<h4>React</h4>
+					</div>
+
+				
+				</div>
+			</div>
+		</div>
+
+
+		<div class="floating">
+			<img src="Logo-opt.png" alt="Logo d'Ismaël Kouddane-Metz" style="height: 130px; width: 130px;">
+		</div>
+
+
+		<div id="contact">
+
+					<h3>Contact</h3>
+					<hr>
+					<p>N'hésitez pas à me contacter pour plus d'informations. <br>Je vous répondrai dans les plus brefs délais.</p>
+								<!-- Wrapper container -->
+					<div class="container py-4">
+
+					  <!-- Bootstrap 5 starter form -->
+					  <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+					    <!-- Name input -->
+					    <div class="mb-3">
+					      <label class="form-label" for="name">Nom</label>
+					      <input class="form-control" id="name" type="text" placeholder="Nom" data-sb-validations="required" />
+					      <div class="invalid-feedback" data-sb-feedback="name:required">Ce champ est obligatoire.</div>
+					    </div>
+
+					    <!-- Email address input -->
+					    <div class="mb-3">
+					      <label class="form-label" for="emailAddress">Adresse email</label>
+					      <input class="form-control" id="emailAddress" type="email" placeholder="Adresse email" data-sb-validations="required, email" />
+					      <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Ce champ est obligatoire.</div>
+					      <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Adresse non valide.</div>
+					    </div>
+
+					    <!-- Message input -->
+					    <div class="mb-3">
+					      <label class="form-label" for="message">Message</label>
+					      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+					      <div class="invalid-feedback" data-sb-feedback="message:required">Ce champ est obligatoire.</div>
+					    </div>
+
+					    <!-- Form submissions success message -->
+					    <div class="d-none" id="submitSuccessMessage">
+					      <div class="text-center mb-3">Message bien envoyé !</div>
+					    </div>
+
+					    <!-- Form submissions error message -->
+					    <div class="d-none" id="submitErrorMessage">
+					      <div class="text-center text-danger mb-3">Le message n'a pas pu être envoyé !</div>
+					    </div>
+
+					    <!-- Form submit button -->
+					    <div class="d-grid">
+					      <button class="btn btn-danger btn-lg disabled" id="submitButton" type="submit">Envoi</button>
+					    </div>
+
+					  </form>
+
+					</div>
+		</div>
+
+	</main>
+
+	<footer>
+			<img src="Logo-opt.png" alt="Logo" style="height: 130px; width: 150px;">
+			<p>Touts droits réservés | Ismaël Kouddane-Metz | Mai 2022</p>
+
+	</footer>
+				<!-- SB Forms JS -->
+				<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+				<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
